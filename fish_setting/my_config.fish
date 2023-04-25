@@ -41,3 +41,4 @@ abbr -a db sudo docker build -t
 abbr -a dr sudo docker run -it --rm
 abbr -a di sudo docker images
 abbr -a drmi sudo docker rmi
+abbr -a dsp sudo docker system prune
