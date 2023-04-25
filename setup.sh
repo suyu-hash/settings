@@ -3,8 +3,8 @@
 sudo apt update
 
 ### fish and fisher ###
-sudo chmod +x ./fish_setting/fish_setting.sh && ./fish_setting/fish_setting.sh
-sudo chmod +x ./fish_setting/fish_settinger.fish && fish ./fish_setting/fish_settinger.fish
+sudo chmod +x ./fish_setting/setup_fish.sh && ./fish_setting/setup_fish.sh
+sudo chmod +x ./fish_setting/setup_fishger.fish && fish ./fish_setting/setup_fisher.fish
 
 # write my_config(fish) path
 echo "source $PWD/fish_setting/my_config.fish" >> ~/.config/fish/config.fish
