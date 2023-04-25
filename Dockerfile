@@ -24,7 +24,7 @@ USER ${USER}
 
 
 # fish
-COPY setup_fish/ ${WKDIR}/setup_fish/
+COPY fish_setting/ ${WKDIR}/fish_setting/
 
 # ros2 humble
 COPY ros2humble_setting/ ${WKDIR}/ros2humble_setting/
