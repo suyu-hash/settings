@@ -17,13 +17,14 @@ set -g theme_newline_prompt '> '
 set -g fish_prompt_pwd_dir_length 0
 
 
+
 ### abbreviation
 
 # git abbreviation
 abbr -a gs git status
 abbr -a ga git add
 abbr -a gaa git add -A
-abbr -a gcm git commimt -m
+abbr -a gcm git commit -m
 abbr -a gp git pull
 abbr -a gc git checkout
 
@@ -42,3 +43,6 @@ abbr -a dr sudo docker run -it --rm
 abbr -a di sudo docker images
 abbr -a drmi sudo docker rmi
 abbr -a dsp sudo docker system prune
+
+# matlab
+abbr -a matlab- matlab -nosplash -nodesktop
