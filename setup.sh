@@ -23,3 +23,6 @@ sudo apt install -y imwheel
 # to activate fish
 # always write last line
 echo "exec fish" >> ~/.bashrc
+
+### tmux ###
+sudo chmod +x $PWD/tmux/setup_tmux.sh && cd $PWD/tmux/ && ./setup_tmux.sh && cd ../
