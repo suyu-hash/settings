@@ -29,6 +29,8 @@ COPY fish_setting/ ${WKDIR}/fish_setting/
 # ros2 humble
 COPY ros2humble_setting/ ${WKDIR}/ros2humble_setting/
 
+RUN sudo apt install -y autoconf automake pkg-config build-essential manpages-dev libevent-dev ml-yacc bison flex libncurses5-dev
+COPY tmux/ ${WKDIR}/tmux/
 
 COPY setup.sh .
 
